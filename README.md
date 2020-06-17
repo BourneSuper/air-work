@@ -32,7 +32,8 @@ $ php artisan db:seed
 ```
 Now you get some defalut data. <br/>
 E-mail account: zhangsan@zhangsan.com <br/>
-passwor: zhangsan <br/>
+passwor: zhangsan
+
 5. config your nginx
 config your ningx and php-fpm by following their manual. It's just standard configuration.
 ```shell
@@ -46,7 +47,7 @@ config your ningx and php-fpm by following their manual. It's just standard conf
         fastcgi_param   SCRIPT_NAME        $fastcgi_script_name;
     }
 ```
-6.open your brower and try it
+6. open your brower and try it
 
 
 
