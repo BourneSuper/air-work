@@ -1,5 +1,5 @@
 # Air Work
-Software for work，task management，team collaboration，process display，Agile board.<br/>
+Software for work，task management，team collaboration，process display，Agile board.Base on Laravel.<br/>
 办公软件：任务管理，团队协作，流程展示，敏捷看板。
 
 ## DEMO
@@ -21,11 +21,17 @@ $ cd air-work
 $ composer install
 $ npm install
 ```
-3. generate laravel key
+3.config application
+```shell
+$ cp .env.example .env
+#change database configure here.
+$ vim .env 
+```
+4. generate laravel key
 ```shell
 $ php artisan key:generate
 ```
-4. migrate and seed
+5. migrate and seed
 ```shell
 $ php artisan migrate
 $ php artisan db:seed
@@ -34,7 +40,7 @@ Now you get some defalut data. <br/>
 E-mail account: zhangsan@zhangsan.com <br/>
 passwor: zhangsan
 
-5. config your nginx
+6. config your nginx
 config your ningx and php-fpm by following their manual. It's just standard configuration.
 ```shell
     location ~ \.php$ {
@@ -47,7 +53,7 @@ config your ningx and php-fpm by following their manual. It's just standard conf
         fastcgi_param   SCRIPT_NAME        $fastcgi_script_name;
     }
 ```
-6. open your brower and try it
+7. open your brower and try it
 
 
 
