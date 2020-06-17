@@ -1,5 +1,5 @@
 # Air Work
-Software for work，task management，team collaboration，process display，Agile board.
+Software for work，task management，team collaboration，process display，Agile board.<br/>
 办公软件：任务管理，团队协作，流程展示，敏捷看板。
 
 ## DEMO
@@ -30,9 +30,9 @@ $ php artisan key:generate
 $ php artisan migrate
 $ php artisan db:seed
 ```
-Now you get some defalut data. 
-E-mail account: zhangsan@zhangsan.com
-passwor: zhangsan
+Now you get some defalut data. <br/>
+E-mail account: zhangsan@zhangsan.com <br/>
+passwor: zhangsan <br/>
 5. config your nginx
 config your ningx and php-fpm by following their manual. It's just standard configuration.
 ```shell
