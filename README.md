@@ -1,6 +1,6 @@
 # Air Work
 Software for work，task management，team collaboration，process display，Agile board.
-办公软件：任务管理，团队协作，流程展示，敏捷1看板。
+办公软件：任务管理，团队协作，流程展示，敏捷看板。
 
 ## DEMO
 ![image](https://github.com/BourneSuper/air-work/blob/master/README.gif)
