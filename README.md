@@ -21,7 +21,7 @@ $ cd air-work
 $ composer install
 $ npm install
 ```
-3.config application
+3. config application
 ```shell
 $ cp .env.example .env
 #change database configure here.
