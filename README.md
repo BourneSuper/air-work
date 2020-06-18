@@ -42,7 +42,7 @@ E-mail account: zhangsan@zhangsan.com <br/>
 passwor: zhangsan
 
 6. config your nginx
-config your ningx and php-fpm by following their manual. It's just standard configuration.
+config your nginx and php-fpm by following their manual. It's just standard configuration.
 ```shell
     location ~ \.php$ {
         #root           html;
