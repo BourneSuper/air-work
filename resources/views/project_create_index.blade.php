@@ -9,6 +9,7 @@
                 <div class="card-header">Create Project</div>
 
                 <div class="card-body">
+                	<button id="goToProjects" type="button" class="btn-primary" style="" onclick="changeLocation('/project/all');" >view all projects</button>
                 </div>
                 
                 <div class="container">

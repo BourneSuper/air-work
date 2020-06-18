@@ -7,8 +7,9 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">Project Settings</div>
-
+                
                 <div class="card-body">
+					<button id="goToProjects" type="button" class="btn-primary" style="" onclick="changeLocation('/project/all');" >view all projects</button>
                 </div>
                 
                 <div class="container">
