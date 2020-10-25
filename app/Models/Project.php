@@ -25,7 +25,7 @@ class Project extends Model {
         return $this->belongsTo( \App\User::class, 'owner_id' );
     }
     
-    public function canModiedRoles(){
+    public function canModifiedRoles(){
         return $this->belongsToMany( \App\Models\Role::class, 'role_project' );
     }
     
