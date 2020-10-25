@@ -1,8 +1,9 @@
 # Air Work
-Software for work，task management，team collaboration，process display，Agile board.Base on Laravel.<br/>
+Software for work, task management, team collaboration, process display, Agile board.Base on Laravel.<br/>
 办公软件：任务管理，团队协作，流程展示，敏捷看板。
 
 ## DEMO
+[DEMO site（data won't save for long）](http://ec2-18-166-11-79.ap-east-1.compute.amazonaws.com/login "Air Work (data won't save for long)")
 ![image](https://github.com/BourneSuper/air-work/blob/master/README.gif)
 
 ## Requirement
@@ -41,7 +42,7 @@ E-mail account: zhangsan@zhangsan.com <br/>
 passwor: zhangsan
 
 6. config your nginx
-config your ningx and php-fpm by following their manual. It's just standard configuration.
+config your nginx and php-fpm by following their manual. It's just standard configuration.
 ```shell
     location ~ \.php$ {
         #root           html;
