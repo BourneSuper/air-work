@@ -13,7 +13,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        //
+        'App\Console\Commands\FreshTablesMonthly',
     ];
 
     /**
@@ -22,9 +22,10 @@ class Kernel extends ConsoleKernel
      * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
      * @return void
      */
-    protected function schedule(Schedule $schedule)
-    {
+    protected function schedule(Schedule $schedule) {
         // $schedule->command('inspire')->hourly();
+        
+        $schedule->command( 'maintain:freshTablesMonthly' )->cron('* * 1 * *')->withoutOverlapping();
     }
 
     /**
