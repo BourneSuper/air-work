@@ -1,5 +1,5 @@
 # Air Work
-Software for work, task management, team collaboration, process display, Agile board.Based on Laravel.<br/>
+Air Work is a agile board for work, task management, team collaboration, process display. Based on Laravel.<br/>
 办公软件：任务管理，团队协作，流程展示，敏捷看板。
 
 ## DEMO
