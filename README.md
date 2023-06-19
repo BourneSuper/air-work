@@ -3,7 +3,7 @@ Software for work, task management, team collaboration, process display, Agile b
 办公软件：任务管理，团队协作，流程展示，敏捷看板。
 
 ## DEMO
-[DEMO site（data won't save for long）](http://ec2-18-166-11-79.ap-east-1.compute.amazonaws.com/login "Air Work (data won't save for long)")
+<!-- [DEMO site（data won't save for long）](http://ec2-18-166-11-79.ap-east-1.compute.amazonaws.com/login "Air Work (data won't save for long)") -->
 ![image](https://github.com/BourneSuper/air-work/blob/master/README.gif)
 
 ## Requirement
