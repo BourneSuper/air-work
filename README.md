@@ -44,6 +44,10 @@ passwor: zhangsan
 6. config your nginx
 config your nginx and php-fpm by following their manual. It's just standard configuration.
 ```shell
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+    
     location ~ \.php$ {
         #root           html;
         root            /usr/share/nginx/html/air-work/public;
@@ -52,6 +56,7 @@ config your nginx and php-fpm by following their manual. It's just standard conf
         include         fastcgi_params;
         fastcgi_param   SCRIPT_FILENAME    $document_root$fastcgi_script_name;
         fastcgi_param   SCRIPT_NAME        $fastcgi_script_name;
+        include fastcgi_params;
     }
 ```
 7. open your brower and try it
