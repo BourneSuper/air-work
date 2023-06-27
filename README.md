@@ -39,7 +39,7 @@ $ php artisan db:seed
 ```
 Now you get some defalut data. <br/>
 E-mail account: zhangsan@zhangsan.com <br/>
-passwor: zhangsan
+password: zhangsan
 
 6. config your nginx
 config your nginx and php-fpm by following their manual. It's just standard configuration.
